@@ -16,7 +16,7 @@ from mysql.connector import errorcode, errors as mysql_errors
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-#gary 
+
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
